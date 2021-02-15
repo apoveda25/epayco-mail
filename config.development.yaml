@@ -1,0 +1,28 @@
+app:
+  name: 'users-service-restful'
+  host: 'http://localhost'
+  port: 4000
+
+db:
+  redis:
+    port: 6379
+    host: 'localhost'
+    password:
+
+grpc:
+  authentication:
+    url: 'localhost:3010'
+  payment:
+    url: 'localhost:3010'
+  recharge:
+    url: 'localhost:3010'
+  user:
+    url: 'localhost:3010'
+  wallet:
+    url: 'localhost:3010'
+
+sendinblue:
+  url: "https://api.sendinblue.com/v3"
+  api_key: "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"
+  name: "ePayco"
+  email_from: "example@epayco.com"
